@@ -1,0 +1,157 @@
+/*font family*/
+.about-mi-section p,.admin-comment p,.recent-block-col p {
+    font-family: 'Exo', sans-serif;
+}
+.recent-block-col .block-editor-rich-text__editable.wp-block-button__link,.service-section-main-col h1,.service-section-main-col h2 {
+    font-family: 'IM Fell English', serif;
+}
+/*service section*/
+.service-section-main-col h1 {
+    position: relative !important;
+    font-weight: normal;
+    line-height: 1px;
+}
+.service-section-main-col h1:after {
+    content: "" !important;
+    display: block;
+    position: absolute !important;
+    border-top: 5px solid;
+    border-top-color: #7c3028;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: -5px;
+    left: 50% !important;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    top: 100% !important;
+}
+/*box 1 about me section*/
+.service-section-main-col h2 {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+/*box 2 recent block section*/
+.recent-block-col h2 {
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    margin-top: 14px !important;
+}
+.recent-block-col h2:after {
+    position: absolute;
+    border-bottom: dashed 2px #111;
+    width: 20%;
+    opacity: 1;
+    background: transparent;
+    content: '' !important;
+    bottom: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    margin: -10px;
+}
+.recent-block-col .para-one {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.recent-block-col .para-one:before {
+    content: "\f133";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #000;
+    margin: 8px;
+}
+.root:before {
+    content: "\f007";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin: 8px;
+    color: #000;
+}
+.comment:before {
+    content: "\f086";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    margin: 8px;
+    color: #000;
+}
+.para-one .wp-block-columns {
+    gap: 1em !important;
+}
+.recent-block-col,
+.social-icons,
+.about-mi-section {
+    border-bottom: solid 5px #dccdcc;
+    background: #fff;
+}
+.recent-block-col .wp-block-button__link {
+    font-weight: 500;
+    display: inline-block;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+.recent-block-col .wp-block-button__link:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111;
+    border-radius: 4px;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.recent-block-col .wp-block-button__link:hover {
+    color: #fff;
+}
+.recent-block-col .wp-block-button__link:hover:before,
+.recent-block-col .wp-block-button__link:focus:before,
+.recent-block-col .wp-block-button__link:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+/*social-icons*/
+.social-icons .wp-block-social-links {
+    font-size: 26px !important;
+    margin: 11px !important;
+}
+.social-icons .wp-block-social-link-anchor {
+    border: 1px solid #7c3028;
+    border-radius: 30px;
+}
+.social-icons button.components-button.wp-block-social-link-anchor:hover{
+    background-color: #7c3028;
+    color: #fff !important;
+}
+.admin-comment {
+    margin-top: 0px;
+}
+.recent-block-col .wp-block {
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+.main-service-section .wp-block {
+    margin-top: 0px;
+}

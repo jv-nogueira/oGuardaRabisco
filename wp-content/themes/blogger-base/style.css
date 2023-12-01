@@ -1,0 +1,155 @@
+/*
+Theme Name: Blogger Base
+Theme URI: https://www.themesglance.com/themes/free-blogger-wordpress-theme/
+Author: Themesglance
+Author URI: https://www.themesglance.com/
+Description: Blogger Base is a child theme of Blogger Hub, It is a minimal WordPress theme designed aesthetically for giving modern look to your site. This multipurpose theme can be used for food blog, knowlege base, support blogs, fashion blog, lifestyle blog, tech blog, gamer blogs, fan fiction, networking blog, sports blog, personal blog, novel, story books, creative writers, magazine, news, artistic, videography, podscast, artwork blog, blog showcase, vlog, health blog, medical blog, techical blog, viral, adventure, adventure blog, travel blog, craft blog, photography blog etc. It can prove to be a landing page. Magazines and newsletter sites can seamlessly blend into its design. If you are looking for a theme for writing journal or your biography then Blogger Base is the answer for you. It can be used as a writer’s theme. It is a bloggers’ junction. The Blogger Base WordPress theme can be customized to make small to big changes. It is a fully responsive, threaded comments, cross-browser compatible and translation ready theme. The stunning design, interactive and user-friendly interface attract everyone’s attention and make them adhere to your site for longer time. Its SEO-friendliness gives your site a higher rank in Google search engine. Though the theme has various features and functionalities, still it has faster page loading ability. Demo: https://www.themesglance.com/blogger-hub-pro/
+Requires at least: 5.0
+Tested up to: 6.2
+Requires PHP: 7.2
+Version: 0.6.2
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: blogger-base
+Template: blogger-hub
+Tags: custom-background, custom-menu, custom-colors, custom-logo, editor-style, featured-images, front-page-post-form, full-width-template, footer-widgets, one-column, sticky-post, two-columns, theme-options, threaded-comments, right-sidebar, left-sidebar, grid-layout, three-columns, blog, news ,block-patterns
+*/
+
+body{
+	background: #d6ddd6;
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'IM Fell English', serif;
+}
+a{
+	text-decoration: none;
+}
+#footer .textwidget p a, #footer .textwidget p a{
+	text-decoration: underline;
+}
+a:focus, input:focus, textarea:focus, button:focus, .woocommerce form .form-row input.input-text:focus, .woocommerce form .form-row textarea:focus {
+    outline: 2px solid #000 !important;
+}
+.sf-arrows .sf-with-ul, .topbar .sf-arrows .sf-with-ul{
+	padding:18px 25px 18px 10px;
+}
+.sf-arrows .sf-with-ul:after{
+	top: 0px;
+}
+#sidebar input[type="submit"], #footer input[type="submit"], #sidebar h3, .blogbtn a, .pagination .current, .inner, .bradcrumbs a, #category_post h1, #sidebar td#today, #sidebar .tagcloud a:hover, #header .nav ul li a:hover, h1.page-title, h1.search-title, input[type="submit"], span.meta-nav, #comments a.comment-reply-link, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce span.onsale, nav.woocommerce-MyAccount-navigation ul li, .footerinner .tagcloud a, .back-to-top, .woocommerce-product-search button, .woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .navigation .nav-previous a, .navigation .nav-next a, a.button{
+	background: #264826;
+}
+#wrapper .related-posts h2.related-posts-main-title, #wrapper .related-posts h3 a{
+	color: #264826;
+}
+.bradcrumbs a{
+	margin-bottom: 10px;
+}
+.bradcrumbs span{
+	display: inline-block;
+}
+a.button:hover, .copyright a:hover, .bradcrumbs a:hover{
+	color: #fff;
+}
+#comments input[type="submit"].submit{
+	background: #264826 !important;
+}
+input[type="submit"]{
+	padding:10px 25px;
+}
+.logo p{
+	margin: 0;
+}
+.back-to-top::before{
+	border-bottom-color: #264826;
+}
+#sidebar h3:after, #category_post h1:after, #header .nav ul li:hover > ul{
+	border-top-color: #264826;
+}
+#sidebar .wp-block-search .wp-block-search__inside-wrapper{
+	display: inline-flex;
+}
+.blogbtn a{
+	font-size: 16px;
+	padding: 10px 20px;
+}
+.blog-sec h2 a, .logo h1 a, .logo p.site-title a, .logo p, .social-links i:hover, a{
+	color: #264826;
+}
+.nav-menu ul li a:active, .nav-menu ul li a:hover, #footer .search-field{
+	color: #fff;
+}
+.post-info{
+	font-size: 13px;
+}
+.blog-sec p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    margin-top: 27px;
+}
+.widget_calendar tbody a, input[type="search"]{
+	background: #fff;
+}
+#sidebar .tagcloud a:hover, .widget_calendar caption{
+	color: #fff;
+}
+#wrapper .related-posts .blog-sec p{
+	text-align: left;
+}
+.page-template-custom-front-page .blog-sec h2{
+	font-size: 16px;
+}
+.nav-menu ul ul a {
+	color: #264826;
+    background: #fff;
+}
+.nav-menu ul ul, .nav-menu ul ul a:hover{
+	border-color: #fff;
+}
+#sidebar ul li a:hover{
+	color: #264826;
+}
+.woocommerce a.added_to_cart{
+	display: block;
+}
+.woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled]{
+	color: #fff;
+}
+.woocommerce-cart-form__cart-item td a, .woocommerce-MyAccount-navigation a,
+.woocommerce-MyAccount-content a{
+	text-decoration: none;
+}
+.woocommerce-ordering select.orderby {
+    padding: 10px;
+}
+#sidebar .wp-block-search__button{
+	margin-left: 0px;
+}
+.post-categories li a{
+	background-color: #264826;
+	color: #fff;
+}
+.bradcrumbs span {
+	background: #264826;
+    color: #fff;
+}
+@media screen and (max-width: 1000px){
+	.sf-arrows .sf-with-ul, .topbar .sf-arrows .sf-with-ul{
+		padding: 10px;
+	}
+	.sf-arrows .sf-with-ul:after{
+		top: 5px;
+	}
+}
+@media screen and (max-width: 768px) and (min-width: 320px){
+	.search-box input[type="submit"]{
+	margin-top: 9px;
+	}
+	.blogbtn a{
+	font-size: 15px;
+    padding: 10px 9px;
+	}
+}

@@ -1,0 +1,175 @@
+.recent-post-section .wp-block {
+    margin-bottom: 10px !important;
+}
+.recent-post-section p,.about-me-section p,.post-section-text p {
+    font-family: 'Poppins', sans-serif !important;
+}
+.recent-post-section h1,.recent-post-section h2,.about-me-section h1,.about-me-section h2,.recent-post-section .wp-block-button__link {
+    font-family: 'IM Fell English', serif !important;
+}
+.recent-post-section p,.about-me-section p,.post-section-text p {
+    letter-spacing: 1px;
+}
+.recent-post-section img {
+    padding: 10px;
+    width: 100vw !important;
+    margin-top: -27px;
+}
+.recent-post-section h1 {
+    position: relative;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.recent-post-section h1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 5px solid;
+    border-top-color: #264826;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    left: 50% !important;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    top: 62px !important;
+}
+.recent-post-section h2 {
+    font-weight: 600;
+    letter-spacing: 0px;
+    position: relative;
+    margin-top: 0px;
+}
+.recent-post-section h2:after {
+    position: absolute;
+    border-bottom: dashed 2px #111;
+    width: 20%;
+    opacity: 1;
+    background: transparent;
+    content: '';
+    bottom: -15px !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+.recent-post-section .wp-block-button__link {
+    padding: 10px 20px;
+    font-weight: 500;
+    display: inline-block;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    font-family: 'IM Fell English', serif !important;
+}
+.recent-post-section .wp-block-button__link:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border-radius: 4px;
+}
+.recent-post-section .wp-block-button__link:hover {
+    color: #fff;
+}
+.recent-post-section .wp-block-button__link:hover:before,.recent-post-section .wp-block-button__link:focus:before,.recent-post-section .wp-block-button__link:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.recent-post-section .wp-block-buttons {
+    margin-top: 22px;
+}
+/*about mi section*/
+.about-me-section img {
+    padding: 10px;
+    margin-bottom: -13px;
+    width: 100vw !important;
+}
+.about-me-section h1 {
+    position: relative;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.about-me-section h1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 5px solid;
+    border-top-color: #264826;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    top: 62px !important;
+    left: 50% !important;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+}
+.about-me-section h2 {
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+}
+.about-me-section h2:after {
+    position: absolute;
+    border-bottom: dashed 2px #111;
+    width: 20%;
+    opacity: 1;
+    background: transparent;
+    content: '';
+    bottom: -15px !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+/*social-icons*/
+.about-me-section .wp-block-social-links {
+    font-size: 25px !important;
+    margin: 8px !important;
+}
+.about-me-section .wp-block-social-link-anchor {
+    border: 1px solid #264826;
+    border-radius: 30px;
+    border-bottom: 1px solid #264826 !important;
+}
+.about-me-section .wp-block-social-link-anchor:hover {
+    background: #264826;
+    color: #fff !important;
+}
+.about-me-section .social-icon-icon {
+    transform: none !important;
+}
+.post-section-text .wp-block-column,.about-me-section .wp-block-column,.recent-post-section .wp-block-column {
+    border-bottom: solid 5px #dccdcc;
+    background: #fff;
+}
+.recent-post-section .wp-block-buttons {
+    margin-top: 0px;
+}
+.social-icon .wp-block {
+    padding-bottom: 5px !important;
+    padding-top: 3px !important;
+}

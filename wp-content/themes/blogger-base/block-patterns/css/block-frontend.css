@@ -1,0 +1,179 @@
+.recent-post-section p,.about-me-section p,.post-section-text p {
+    letter-spacing: 1px;
+}
+.recent-post-section img {
+    padding: 10px;
+}
+.recent-post-section h1 {
+    position: relative;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.recent-post-section h1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 5px solid;
+    border-top-color: #264826;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+}
+.recent-post-section h2 {
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+}
+.recent-post-section h2:after {
+    position: absolute;
+    border-bottom: dashed 2px #111;
+    width: 20%;
+    opacity: 1;
+    background: transparent;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+.recent-post-section a.wp-block-button__link {
+    padding: 10px 20px;
+    font-weight: 500;
+    display: inline-block;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    font-family: 'IM Fell English', serif !important;
+}
+.recent-post-section a.wp-block-button__link:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #111111;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border-radius: 4px;
+}
+.recent-post-section a.wp-block-button__link:hover {
+    color: #fff;
+}
+.recent-post-section a.wp-block-button__link:hover:before,.recent-post-section a.wp-block-button__link:focus:before,.recent-post-section a.wp-block-button__link:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+/*about mi section*/
+.about-me-section img {
+    padding: 10px;
+    margin-bottom: -13px;
+}
+.about-me-section h1 {
+    position: relative;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.about-me-section h1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 5px solid;
+    border-top-color: #264826;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+}
+.about-me-section h2 {
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+}
+.about-me-section h2:after {
+    position: absolute;
+    border-bottom: dashed 2px #111;
+    width: 20%;
+    opacity: 1;
+    background: transparent;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+/*social-icons*/
+.about-me-section .wp-block-social-links {
+    font-size: 25px !important;
+    margin: 14px !important;
+}
+.about-me-section .wp-block-social-link-anchor {
+    border: 1px solid #264826;
+    border-radius: 30px;
+    border-bottom: 1px solid #264826 !important;
+}
+.about-me-section .wp-block-social-link-anchor:hover {
+    background: #264826;
+    color: #fff !important;
+}
+.about-me-section .social-icon-icon {
+    transform: none !important;
+}
+.post-section-text .wp-block-column,.about-me-section .wp-block-column,.recent-post-section .wp-block-column {
+    border-bottom: solid 5px #dccdcc;
+    background: #fff;
+}
+@media screen and (max-width: 720px) {
+    .post-section .wp-block-columns {
+        gap: 0em;
+    }
+    .recent-post-section .wp-block-columns {
+        margin-top: 10px !important;
+    }
+    .recent-post-section .wp-block-column {
+        margin-bottom: 12px !important;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 767px) {
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.about-me-section {
+        flex-basis: 50% !important;
+    }
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.recent-post-section {
+        flex-basis: 50% !important;
+    }
+    .post-section .wp-block-columns {
+        flex-wrap: nowrap !important;
+    }
+    .recent-post-section .wp-block-columns {
+        flex-wrap: wrap !important;
+    }
+}
